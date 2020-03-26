@@ -3,5 +3,6 @@
 
 void testPlayer();
 void testRepo();
+void testService();
 
 #endif // TEST_H

@@ -11,9 +11,11 @@ private:
 public:
 	Repo();
 	~Repo();
-	void addPlayer(Player& p);
+	void addPlayer(Player p);
 	Player getPlayer(int position);
 	Player* getAllPlayers();
 	int getNumberOfPlayers();
+	void deletePlayer(Player& p);
+	void updatePlayer(Player& p1, Player& p2);
 };
 #endif
